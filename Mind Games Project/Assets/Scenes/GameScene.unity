@@ -576,7 +576,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 0
+        m_CallState: 2
 --- !u!114 &1013359413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -625,7 +625,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1348709754}
   - component: {fileID: 1348709755}
-  - component: {fileID: 1348709756}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -656,18 +655,6 @@ RectTransform:
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1348709755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1348709753}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66d7936e3c0f9a942bcab122c1bd1b32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1348709756
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

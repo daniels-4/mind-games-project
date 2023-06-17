@@ -7,10 +7,12 @@ public class MainMenu : MonoBehaviour
 {
     public void ConnectToGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(1);
+        Debug.Log("player attempting to connect");
     }
     public void ExitGame()
     {
         Application.Quit();
+        Debug.Log("player has quit the game");
     }
 }
